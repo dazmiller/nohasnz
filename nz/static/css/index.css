@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+
+
+#wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+.center {
+  margin: 0 auto
+}
+
+
+
+.example{
+  position: relative;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.fillers{
+  display: none;
+}
+
+.box,
+#grid-a .filler {
+  position: relative;
+  float: left;
+  background-color: #039be5;
+  color: #fff;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.box h1,
+.filler h1 {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.filler,
+.mason-filler,
+.filler-fade {
+  background-color: #ef5350;
+}
+
+#grid-b .filler{
+  opacity: 0;
+  -webkit-transition: opacity .35s;
+  -moz-transition: opacity .35s;
+  -o-transition: opacity .35s;
+  -ms-transition: opacity .35s;
+  transition: opacity .35s;
+}
+
+#grid-b .filler.show {
+  opacity: 1;
+}
+
+@media print, screen and (max-width: 960px) {
+
+@media print, screen and (max-width: 720px) {
+
+@media print, screen and (max-width: 480px) {
+ 
